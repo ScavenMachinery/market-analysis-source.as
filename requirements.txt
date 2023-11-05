@@ -1,0 +1,6 @@
+duckdb==0.8.1
+pandas==2.0.1
+Pillow==9.5.0
+Pillow==10.1.0
+plotly==5.14.1
+streamlit==1.28.0
