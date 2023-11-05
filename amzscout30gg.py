@@ -1,12 +1,13 @@
+import requests
+import pip
+pip.main(["install", "openpyxl"])
 import streamlit as st
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import plotly.subplots as sp
 import locale
-import duckdb
 from PIL import Image
-from ipyvizzu import Chart, Data, Config 
 
 # Carica un'immagine per l'icona della pagina
 img = Image.open('tondino3.png')
